@@ -6,6 +6,18 @@ public class BigONotation {
 
 	}
 
+	/*
+	 * Number of operations = 1;
+	 * O(1)
+	 * */
+	public static boolean isEmpty() {
+		return head == null;
+	}
+
+
+	/*
+	 * 
+	 * */
 	public static int num_occurrences(int n) {
 		int count = 0;
 		for(int i = 0; i < n; i++) {
